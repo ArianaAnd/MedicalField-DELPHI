@@ -1,0 +1,19 @@
+fillrect(clientrect);
+if(timp>=0)and (timp<=170)then
+begin
+         t:=t+2;
+         t1:=t1+6;
+         x:=x+2;
+         a:=a+2;
+if x>=30 then
+pen.color:=clblack;
+begin
+     x:=0;
+     t:=0;
+     end;
+     timp:=timp+1;
+     pen.color:=clblack;
+     end;
+     pen.color:=clblack;
+
+      Form1.Image1.Canvas.Brush.Color:=clcream;
